@@ -13,7 +13,6 @@ export default {
     };
   },
   mounted() {
-    //this.$options.timer = window.setTimeout(this.updateDateTime, 1000);
     this.updateDateTime();
   },
   beforeDestroy() {

@@ -1,7 +1,8 @@
 <template>
   <div id="header">
-    <router-link to="/home" tag="button">HOME</router-link>
-    <router-link to="/about" tag="button">ABOUT</router-link>
+    <router-link to="/home"><button>HOME</button></router-link>
+    <router-link to="/about"><button>ABOUT</button></router-link>
+    <router-link to="/contact"><button>CONTACT ME</button></router-link>
   </div>
 </template>
 
